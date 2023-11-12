@@ -21,35 +21,26 @@ body {
 	overflow: hidden;
 }
 
-.inner-bg-circle {
+.circle {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	background-color: #6592CF;
 	aspect-ratio: 1;
-	width: 250px;
 	border-radius: 100%;
+}
+
+.inner-bg-circle {
+	background-color: #6592CF;
+	width: 250px;
 }
 
 .inner-md-circle {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	background-color: #243D83;
-	aspect-ratio: 1;
 	width: 150px;
-	border-radius: 100%;
 }
 
 .inner-sm-circle {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 	background-color: #EEB850;
-	aspect-ratio: 1;
 	width: 50px;
-	border-radius: 100%;
 }
