@@ -10,4 +10,5 @@ There's also an **Art** section to this project, so it's one challenge and one C
 
 | Day | Challenge | Art |
 | --- | --------- | --- |
-| 01 | [Social Media Icons](./day-01/challenge/) | [Target](./day-01/art/) |
+| 01 | Social Media Icons | Target |
+| 01 | Loader | Fork |
