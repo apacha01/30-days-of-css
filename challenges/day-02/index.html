@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./art.css">
+	<link rel="stylesheet" href="./challenge.css">
+	<link rel="stylesheet" href="../../web/style.css">
+	<title>Day 02 | 30 Days of CSS</title>
+</head>
+
+<body>
+	<h1 class="title">Day 02</h1>
+	<main class="day-challenges-galery">
+		<section class="challenge">
+			<h2 class="subtitle">Challenge: loader</h2>
+			<button class="spinner-btn" onclick="toggleSpinner(); return false;"> Toggle Animation </button>
+			<div class="challenge-container">
+				<div class="loader-border">
+					<div id="spinner" class="spinner"></div>
+					<p class="loader-txt">Loading</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="art">
+			<h2 class="subtitle">Art: fork</h2>
+			<div class="art-container">
+
+			</div>
+		</section>
+	</main>
+	<script>
+		const toggleSpinner = () => {
+			document.getElementById('spinner').classList.toggle('no-animation')
+		}
+	</script>
+</body>
+
+</html>
