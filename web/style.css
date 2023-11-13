@@ -77,13 +77,21 @@ body {
 
 
 /* Days styles */
+.go-back-link {
+	text-decoration: none;
+}
+
+.go-back-link:hover {
+	text-decoration: underline dashed;
+}
+
 section {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 	gap: 3rem;
-	height: 20rem;
+	height: 30rem;
 }
 
 .day-challenges-galery {
