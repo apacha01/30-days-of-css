@@ -10,5 +10,5 @@ There's also an **Art** section to this project, so it's one challenge and one C
 
 | Day | Challenge | Art |
 | --- | --------- | --- |
-| 01 | Social Media Icons | Target |
-| 01 | Loader | Fork |
+| 01 | Social Media Icons | [Push Button](https://cssbattle.dev/play/3) |
+| 01 | Loader | [Forking Crazy](https://cssbattle.dev/play/8) |
