@@ -1,0 +1,95 @@
+:root {
+	/* https://uicolors.app/create -> #264de4 */
+	--blue-50: #f0f4fe;
+	--blue-100: #dce6fd;
+	--blue-300: #96bafa;
+	--blue-500: #4170f0;
+	--blue-600: #264de4;
+	--blue-800: #2333aa;
+	--blue-950: #192052;
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin: 0;
+	min-height: 100vh;
+	font-family: system-ui, sans-serif, serif;
+	background: linear-gradient(var(--blue-300) 0%, var(--blue-50) 100%);
+}
+
+.days-container {
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.title {
+	text-align: center;
+	margin-top: 2.5rem;
+	font-weight: 800;
+	color: var(--blue-800);
+}
+
+.subtitle {
+	color: var(--blue-950);
+}
+
+.days {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	margin-top: 1rem;
+}
+
+.day {
+	width: 10rem;
+	height: 10rem;
+	padding: 1rem;
+	margin: 0.5rem 0.25rem;
+	box-sizing: border-box;
+	box-shadow: 0 4px 8px 2px var(--blue-800);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	border-radius: 0.75rem;
+}
+
+.day-content {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	font-size: 0.8rem;
+	color: var(--blue-950);
+}
+
+.day-content strong {
+	margin-top: 0.35rem;
+}
+
+.date {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+	font-weight: 600;
+}
+
+
+/* Days styles */
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 3rem;
+	height: 20rem;
+}
+
+.day-challenges-galery {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin: auto;
+}
