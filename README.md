@@ -12,3 +12,4 @@ There's also an **Art** section to this project, so it's one challenge and one C
 | --- | --------- | --- |
 | 01 | Social Media Icons | [Push Button](https://cssbattle.dev/play/3) |
 | 02 | Loader | [Forking Crazy](https://cssbattle.dev/play/8) |
+| 03 | Sliding Text | [Eye of Sauron](https://cssbattle.dev/play/11) |

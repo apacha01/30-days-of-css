@@ -1,0 +1,50 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: #191210;
+}
+
+/* COMMON STYLES */
+.eye,
+.pupil {
+	aspect-ratio: 1 / 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 100%;
+}
+
+.eye {
+	box-sizing: border-box;
+	width: 140px;
+	border: 20px solid #ECA03D;
+}
+
+.pupil {
+	width: 50px;
+	background-color: #84271C;
+}
+
+.sideye {
+	position: absolute;
+	box-sizing: border-box;
+	width: 100px;
+	height: 50px;
+	border-radius: 0 0 50px 50px;
+	border-bottom: 20px solid #ECA03D;
+	border-right: 20px solid #ECA03D;
+	border-left: 20px solid #ECA03D;
+}
+
+.left {
+	top: 50%;
+	left: 50px;
+}
+
+.right {
+	top: 100px;
+	left: 250px;
+	transform: rotate(180deg)
+}

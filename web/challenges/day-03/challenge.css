@@ -1,0 +1,38 @@
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: white;
+}
+
+.sliding-text-container {
+	position: absolute;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	z-index: 100;
+	background-color: black;
+	color: white;
+	overflow: hidden;
+}
+
+.text {
+	margin: 0;
+	position: absolute;
+	text-wrap: nowrap;
+	top: 50%;
+	left: 0;
+	transform: translate(100%, -50%);
+	font-size: 48px;
+	animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+	100% {
+		transform: translate(-100%, -50%);
+	}
+}
