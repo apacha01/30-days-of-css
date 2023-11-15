@@ -92,6 +92,7 @@ section {
 	align-items: center;
 	gap: 3rem;
 	height: 30rem;
+	max-width: 100%;
 }
 
 .day-challenges-galery {
@@ -101,4 +102,12 @@ section {
 	align-items: center;
 	flex-wrap: wrap;
 	margin: auto;
+}
+
+@media screen and (max-width: 500px) {
+
+	.art-container,
+	.challenge-container {
+		transform: scale(.75);
+	}
 }
