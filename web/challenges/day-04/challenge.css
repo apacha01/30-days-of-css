@@ -1,0 +1,60 @@
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+.hover-me {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+	width: 300px;
+	height: 100px;
+	color: white;
+	background-color: var(--blue-800);
+	border: 8px solid var(--blue-950);
+	border-radius: 20px;
+	transition: all 0.2s ease-in-out;
+}
+
+.hover-me:hover {
+	background-color: var(--blue-950);
+	border-color: var(--blue-800);
+}
+
+.hovers::after, .hovers::before {
+	position: absolute;
+	content: "";
+	width: 10%;
+	height: 8px;
+	background-color: var(--blue-800);
+	transition: all 0.2s ease-in-out;
+}
+
+.hovers::before {
+	top: -8px;
+	left: 10%;
+}
+
+.hovers::after {
+	bottom: -8px;
+	right: 10%;
+}
+
+.hover-me:hover .hovers::before {
+	background-color: var(--blue-950);
+	left: 60%;
+}
+
+.hover-me:hover .hovers::after {
+	background-color: var(--blue-950);
+	right: 60%;
+}

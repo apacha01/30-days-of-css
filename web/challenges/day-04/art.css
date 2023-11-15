@@ -1,0 +1,59 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: #62306D;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ticket {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	background: linear-gradient(to right, #F7EC7D 140px, #E38F66 140px);
+}
+
+.ticket:before, .ticket:after, .middle-circles:before, .middle-circles:after,
+.right-circles:after, .right-circles:before {
+	content: "";
+	position: absolute;
+	aspect-ratio: 1 / 1;
+	width: 40px;
+	border-radius: 100%;
+	background-color: #62306D;
+}
+
+.ticket:before {
+	top: -20px;
+	left: -20px;
+}
+
+.ticket:after {
+	bottom: -20px;
+	left: -20px;
+}
+
+.middle-circles:before, .middle-circles:after {
+	width: 20px;
+	left: 130px;
+}
+
+.middle-circles:before {
+	top: -10px;
+}
+
+.middle-circles:after {
+	bottom: -10px;
+}
+
+.right-circles:before {
+  top: -20px;
+  right: -20px;
+}
+
+.right-circles:after {
+  bottom: -20px;
+  right: -20px;
+}
