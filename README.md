@@ -14,3 +14,4 @@ There's also an **Art** section to this project, so it's one challenge and one C
 | 02 | Loader | [Forking Crazy](https://cssbattle.dev/play/8) |
 | 03 | Sliding Text | [Eye of Sauron](https://cssbattle.dev/play/11) |
 | 04 | Cool Hover Effect | [Ticket](https://cssbattle.dev/play/20) |
+| 05 | Pulse | [Fox Head](https://cssbattle.dev/play/41) |
