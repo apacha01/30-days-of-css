@@ -1,0 +1,72 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: #191919;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.head {
+	position: relative;
+	width: 120px;
+	height: 100px;
+	border-radius: 60px 60px 10px 10px;
+	background: #4f77ff;
+}
+
+.head:after,
+.head:before,
+.teeth:after,
+.teeth:before,
+.teeth,
+.nose {
+	content: "";
+	position: absolute;
+	background: #191919;
+	aspect-ratio: 1/1;
+	width: 40px;
+	border-radius: 100%;
+	bottom: 7px;
+	left: 15px;
+}
+
+.head:after {
+	left: 65px;
+}
+
+.teeth,
+.teeth:after,
+.teeth:before {
+	width: 10px;
+	height: 10px;
+	border-radius: 5px 5px 0 0;
+	bottom: 0;
+	left: 20px;
+}
+
+.teeth:before {
+	left: 15px;
+}
+
+.teeth:after {
+	left: 30px;
+}
+
+.jaw {
+	position: relative;
+	width: 80px;
+	height: 30px;
+	border-radius: 0 0 20px 20px;
+	background-color: #4F77FF;
+}
+
+.nose {
+	width: 20px;
+	bottom: -1px;
+	left: 50%;
+	translate: -50% 50%;
+	z-index: 10;
+}
