@@ -15,3 +15,4 @@ There's also an **Art** section to this project, so it's one challenge and one C
 | 03 | Sliding Text | [Eye of Sauron](https://cssbattle.dev/play/11) |
 | 04 | Cool Hover Effect | [Ticket](https://cssbattle.dev/play/20) |
 | 05 | Pulse | [Fox Head](https://cssbattle.dev/play/41) |
+| 06 | Lightning Text Effect | [Danger Noodle](https://cssbattle.dev/play/74) |
