@@ -10,9 +10,9 @@ There's also an **Art** section to this project, so it's one challenge and one C
 
 | Day | Challenge | Art |
 | --- | --------- | --- |
-| 01 | Social Media Icons | [Push Button](https://cssbattle.dev/play/3) |
-| 02 | Loader | [Forking Crazy](https://cssbattle.dev/play/8) |
-| 03 | Sliding Text | [Eye of Sauron](https://cssbattle.dev/play/11) |
-| 04 | Cool Hover Effect | [Ticket](https://cssbattle.dev/play/20) |
-| 05 | Pulse | [Fox Head](https://cssbattle.dev/play/41) |
-| 06 | Lightning Text Effect | [Danger Noodle](https://cssbattle.dev/play/74) |
+| 01 | [Social Media Icons](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-01---%C3%ADcone-de-m%C3%ADdia-social-em-camadas-) | [Push Button](https://cssbattle.dev/play/3) |
+| 02 | [Loader](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-02---loader-animado-) | [Forking Crazy](https://cssbattle.dev/play/8) |
+| 03 | [Sliding Text](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-03---mudan%C3%A7a-de-cor-de-texto-quando-entra-em-outra-div-) | [Eye of Sauron](https://cssbattle.dev/play/11) |
+| 04 | [Cool Hover Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-04---bot%C3%A3o-com-efeito-) | [Ticket](https://cssbattle.dev/play/20) |
+| 05 | [Pulse](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-05---efeito-pulsar-) | [Fox Head](https://cssbattle.dev/play/41) |
+| 06 | [Lightning Text Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-06---efeito-lightning-text-) | [Danger Noodle](https://cssbattle.dev/play/74) |
