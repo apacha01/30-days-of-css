@@ -17,4 +17,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 03 | [Sliding Text](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-03---mudan%C3%A7a-de-cor-de-texto-quando-entra-em-outra-div-) | [Eye of Sauron](https://cssbattle.dev/play/11) |
 | 04 | [Cool Hover Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-04---bot%C3%A3o-com-efeito-) | [Ticket](https://cssbattle.dev/play/20) |
 | 05 | [Pulse](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-05---efeito-pulsar-) | [Fox Head](https://cssbattle.dev/play/41) |
-| 06 | [Lightning Text Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-06---efeito-lightning-text-) | [Danger Noodle](https://cssbattle.dev/play/74) |
+| 06 | [Lightning Text Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-06---efeito-lightning-text-) | [Skull](https://cssbattle.dev/play/56) |
