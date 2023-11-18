@@ -1,0 +1,53 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: #191919;
+}
+
+.eye {
+	position: absolute;
+	transform: translate(89px, 77px);
+	width: 114px;
+	height: 114px;
+	background: #E08027;
+	border-radius: 0 57px 57px 57px;
+	z-index: 5;
+}
+
+.eye:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	background-color: #191919;
+}
+
+.eye:after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 48px);
+	width: 12px;
+	height: 6px;
+	border-radius: 30px 30px 0px 0px;
+	border: 9px solid #E08027;
+	border-bottom: 0;
+}
+
+.right {
+	transform: translate(197px, 77px) scaleX(-1);
+	outline: 10px solid #191919;
+}
+
+.nose {
+	position: absolute;
+	width: 50px;
+	height: 56px;
+	background-color: #E08027;
+	transform: translate(84px, 80px) rotate(-45deg);
+}

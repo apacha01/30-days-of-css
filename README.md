@@ -18,3 +18,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 04 | [Cool Hover Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-04---bot%C3%A3o-com-efeito-) | [Ticket](https://cssbattle.dev/play/20) |
 | 05 | [Pulse](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-05---efeito-pulsar-) | [Fox Head](https://cssbattle.dev/play/41) |
 | 06 | [Lightning Text Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-06---efeito-lightning-text-) | [Skull](https://cssbattle.dev/play/56) |
+| 07 | [Preloader](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-07---preloader-animado-) | [PushOwl](https://cssbattle.dev/play/69) |
