@@ -1,0 +1,105 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: #191919;
+	overflow: hidden;
+}
+
+.line,
+.line:after,
+.line:before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 40px;
+	border-left: 5px solid #E08027;
+	border-right: 5px solid #E08027;
+	transform: translate(65px, 130px);
+}
+
+.line:after {
+	transform: translate(45px, 0px);
+}
+
+.line:before {
+	transform: translate(95px, 0px);
+}
+
+.curve,
+.curve:after,
+.curve-q,
+.curve-q:after {
+	content: "";
+	position: absolute;
+	border-radius: 70px 70px 0 0;
+	width: 60px;
+	height: 85px;
+	border-top: 5px solid #E08027;
+	border-left: 5px solid #E08027;
+	border-right: 5px solid #E08027;
+}
+
+.curve:after {
+	width: 30px;
+	height: 70px;
+	transform: translate(10px, 10px);
+}
+
+.curve:first-child {
+	transform: translate(15px, 40px);
+}
+
+.curve:nth-child(2) {
+	transform: translate(115px, 40px);
+}
+
+.curve:nth-child(3) {
+	transform: translate(65px, 170px) rotate(180deg);
+}
+
+.curve:nth-child(4) {
+	transform: translate(165px, 170px) rotate(180deg);
+}
+
+.curve-q,
+.curve-q:after {
+	width: 56px;
+	height: 28px;
+	border-radius: 40px 0 0 0;
+	border-right: none;
+	transform: translate(215px, 140px) rotate(0deg);
+}
+
+.curve-q:after {
+	border-radius: 20px 0 0 0;
+	transform: translate(10px, 10px);
+}
+
+.curve-q:nth-child(5) {
+	transform: translate(-26px, 127px) rotate(180deg);
+}
+
+.head {
+	position: absolute;
+	background-color: #E08027;
+	width: 50px;
+	height: 30px;
+	transform: translate(265px, 135px);
+	border-radius: 14px 20px 20px 14px;
+}
+
+.head:after,
+.head:before {
+	content: "";
+	position: absolute;
+	background-color: #191919;
+	aspect-ratio: 1 / 1;
+	width: 10px;
+	border-radius: 100%;
+	transform: translate(30px, 2px);
+}
+
+.head:after {
+	transform: translate(30px, 18px);
+}
