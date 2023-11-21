@@ -1,0 +1,57 @@
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	color: var(--blue-950);
+	border-radius: 100%;
+	padding: 50px;
+	border: 3px solid var(--blue-950);
+}
+
+.icon::before,
+.icon::after {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 230px;
+	height: 230px;
+	border-radius: 100%;
+	background-color: transparent;
+	z-index: -1;
+	transition: transform .2s, background-color .2s, border .2s;
+}
+
+.icon::after {
+	box-sizing: border-box;
+	background-color: transparent;
+}
+
+.icon:hover {
+	color: white;
+}
+
+.icon:hover::before {
+	background-color: var(--blue-950);
+	transform: scale(.9);
+}
+
+.icon:hover::after {
+	border: 4px dotted var(--blue-600);
+	animation: spin 12s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		rotate: 360deg;
+	}
+}
