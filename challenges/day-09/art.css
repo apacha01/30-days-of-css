@@ -1,0 +1,113 @@
+.art {
+	position: relative;
+}
+
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: #191919;
+	overflow: hidden;
+}
+
+.battery {
+	width: 225px;
+	height: 110px;
+	border: 8px solid white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 16px;
+}
+
+.battery::before,
+.battery::after {
+	content: "";
+	position: absolute;
+	height: 55px;
+	width: 20px;
+	background-color: white;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	left: 230px;
+	border-radius: 0 7px 7px 0;
+}
+
+.battery::after {
+	height: 90px;
+	width: 40px;
+	left: 15px;
+	border-radius: 8px;
+	box-shadow:
+		50px 0 transparent,
+		100px 0 transparent,
+		150px 0 transparent;
+	animation: charge 4s steps(4) infinite;
+}
+
+@keyframes charge {
+	0% {
+		box-shadow:
+			50px 0 transparent,
+			100px 0 transparent,
+			150px 0 transparent;
+	}
+
+	1% {
+		box-shadow:
+			50px 0 white,
+			100px 0 transparent,
+			150px 0 transparent;
+	}
+
+	25% {
+		box-shadow:
+			50px 0 white,
+			100px 0 transparent,
+			150px 0 transparent;
+	}
+
+	26% {
+		box-shadow:
+			50px 0 white,
+			100px 0 white,
+			150px 0 transparent;
+	}
+
+	50% {
+		box-shadow:
+			50px 0 white,
+			100px 0 white,
+			150px 0 transparent;
+	}
+
+	51% {
+		box-shadow:
+			50px 0 white,
+			100px 0 white,
+			150px 0 white;
+	}
+
+	75% {
+		box-shadow:
+			50px 0 white,
+			100px 0 white,
+			150px 0 white;
+	}
+
+	76% {
+		box-shadow:
+			50px 0 transparent,
+			100px 0 transparent,
+			150px 0 transparent;
+	}
+
+	100% {
+		box-shadow:
+			50px 0 transparent,
+			100px 0 transparent,
+			150px 0 transparent;
+	}
+}

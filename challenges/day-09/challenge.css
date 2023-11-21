@@ -1,0 +1,27 @@
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--blue-50);
+}
+
+.text {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-size: 64px;
+	font-weight: 900;
+	background: linear-gradient(45deg, #2E3192, #1BFFFF, #2E3192, #1BFFFF) 0 0 / 100% 500%;
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	animation: move-bg 24s linear infinite reverse;
+}
+
+@keyframes move-bg {
+	to {
+		background-position: 0 500%;
+	}
+}
