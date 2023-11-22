@@ -1,0 +1,98 @@
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: var(--blue-950);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	position: relative;
+	aspect-ratio: 1;
+	width: 100px;
+	transform: rotate(45deg);
+	animation: animate 1s linear infinite;
+}
+
+.square {
+	position: absolute;
+	aspect-ratio: 1;
+	width: 50px;
+	animation: rotate 1s linear infinite;
+}
+
+.red {
+	top: 0;
+	left: 0;
+	background-color: #FD6C64;
+}
+
+.blue {
+	top: 0;
+	right: 0;
+	background-color: #1F78B0;
+}
+
+.green {
+	bottom: 0;
+	left: 0;
+	background-color: #55DDB9;
+}
+
+.yellow {
+	bottom: 0;
+	right: 0;
+	background-color: #FCEBA7;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	10% {
+		transform: rotate(0deg);
+	}
+
+	50% {
+		transform: rotate(90deg);
+	}
+
+	90% {
+		transform: rotate(90deg);
+	}
+
+	100% {
+		transform: rotate(90deg);
+	}
+}
+
+@keyframes animate {
+	0% {
+		width: 100px;
+		height: 100px;
+	}
+
+	10% {
+		width: 100px;
+		height: 100px;
+	}
+
+	50% {
+		width: 150px;
+		height: 150px;
+	}
+
+	90% {
+		width: 100px;
+		height: 100px;
+	}
+
+	100% {
+		width: 100px;
+		height: 100px;
+	}
+
+}

@@ -22,3 +22,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 08 | [Gold Text](https://codepen.io/TajShireen/pen/LYyOzJL) | [Danger Noodle](https://cssbattle.dev/play/74) |
 | 09 | [Animated Background](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-14---fundo-de-texto-animado) | [One Div Battery Animation](https://www.youtube.com/watch?v=Dp5NUblT5gQ) |
 | 10 | [Icon Hover Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-22---icones-com-efeito-) | [Piano](https://cssbattle.dev/play/80) |
+| 11 | [Preloader](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-24---preloader-animado-) | [Ryuk](https://cssbattle.dev/play/105) |
