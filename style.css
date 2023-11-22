@@ -2,10 +2,14 @@
 	/* https://uicolors.app/create -> #264de4 */
 	--blue-50: #f0f4fe;
 	--blue-100: #dce6fd;
+	--blue-200: #c1d5fc;
 	--blue-300: #96bafa;
+	--blue-400: #6596f5;
 	--blue-500: #4170f0;
 	--blue-600: #264de4;
+	--blue-700: #233ed2;
 	--blue-800: #2333aa;
+	--blue-900: #213187;
 	--blue-950: #192052;
 }
 
