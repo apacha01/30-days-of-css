@@ -23,3 +23,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 09 | [Animated Background](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-14---fundo-de-texto-animado) | [One Div Battery Animation](https://www.youtube.com/watch?v=Dp5NUblT5gQ) |
 | 10 | [Icon Hover Effect](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-22---icones-com-efeito-) | [Piano](https://cssbattle.dev/play/80) |
 | 11 | [Preloader](https://github.com/MilenaCarecho/30diasDeCSS#desafio-dia-24---preloader-animado-) | [Ryuk](https://cssbattle.dev/play/105) |
+| 12 | [Perspective Text](https://www.youtube.com/watch?v=LgiadQQM6mo&list=PLbu98QxRH81KxxMclY_ZRmm4Dac-n7cSA) | [Sealing Wand](https://cssbattle.dev/play/107) |
