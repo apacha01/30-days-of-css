@@ -1,0 +1,55 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: #071945;
+}
+
+.invader {
+	width: 70px;
+	height: 20px;
+	background: #B069F7;
+	transform: translate(30px, 40px);
+	box-shadow: 90px 0 #B069F7, 180px 0 #B069F7, 270px 0 #B069F7, 0px 50px #F8DA37, 180px 50px #F8DA37, 270px 50px #F8DA37;
+}
+
+.invader:before,
+.invader:after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	top: 0;
+	left: 0;
+	background-color: #071945;
+	box-shadow: 60px 0 #071945, 90px 0 #071945, 150px 0 #071945, 180px 0 #071945, 240px 0 #071945, 270px 0 #071945, 330px 0 #071945, 0px 50px #071945, 60px 50px #071945, 120px 50px #071945, 180px 50px #071945, 240px 50px #071945, 270px 50px #071945, 330px 50px #071945;
+}
+
+.invader:after {
+	top: 10px;
+	left: 10px;
+	width: 50px;
+	box-shadow: 90px 0 #071945, 180px 0 #071945, 270px 0 #071945, 0px 50px #071945, 180px 50px #071945, 270px 50px #071945;
+}
+
+.ship,
+.shot {
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	border-left: 21px solid transparent;
+	border-right: 21px solid transparent;
+	border-bottom: 21px solid #2CE1EA;
+}
+
+.shot {
+	width: 10px;
+	height: 10px;
+	background-color: #2CE1EA;
+	bottom: -11px;
+	border: none;
+	box-shadow: 0px -10px #2CE1EA, 0px -40px #2CE1EA, 0px -70px #2CE1EA;
+}

@@ -1,0 +1,42 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: var(--blue-950);
+	display: flex;
+}
+
+.text {
+	margin: auto;
+	padding: 0;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	transition: transform .3s ease-in-out;
+}
+
+.letter {
+	background-color: var(--blue-100);
+	color: var(--blue-800);
+	aspect-ratio: 1 / 1;
+	width: 40px;
+	font-size: 32px;
+	text-align: center;
+	line-height: 40px;
+	transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+.text:hover .letter:nth-child(odd) {
+	transform: skewY(15deg);
+}
+
+.text:hover .letter:nth-child(even) {
+	transform: skewY(-15deg);
+	opacity: .9;
+}
