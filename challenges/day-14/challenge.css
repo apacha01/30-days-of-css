@@ -1,0 +1,75 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: var(--blue-950);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text {
+	position: relative;
+	margin: auto;
+	padding: 0;
+	color: var(--blue-50);
+	font-size: 58px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	transition: color 0.3s ease-in-out;
+}
+
+.splitter {
+	position: absolute;
+	width: 105%;
+	height: 3%;
+	top: 49%;
+	left: -2.5%;
+	background-color: var(--blue-50);
+	transform: scale(0);
+	z-index: 10;
+	transition: transform 0.3s ease-in-out;
+}
+
+.text::after,
+.text::before {
+	content: attr(data-text);
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: transparent;
+	overflow: hidden;
+	transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.text::before {
+	height: 49%;
+}
+
+.text::after {
+	height: 100%;
+	clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+}
+
+.text:hover {
+	color: var(--blue-950);
+}
+
+.text:hover .splitter {
+	transform: scale(1);
+}
+
+.text:hover::before {
+	color: var(--blue-400);
+	transform: skewX(15deg) translateX(5px);
+}
+
+.text:hover::after {
+	color: var(--blue-400);
+	transform: skewX(15deg) translateX(-5px);
+}
