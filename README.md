@@ -26,3 +26,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 12 | [Perspective Text](https://www.youtube.com/watch?v=LgiadQQM6mo&list=PLbu98QxRH81KxxMclY_ZRmm4Dac-n7cSA) | [Sealing Wand](https://cssbattle.dev/play/107) |
 | 13 | [Skew Text on Hover](https://codepen.io/delpher/pen/rrLWEq) | [Space Invaders](https://cssbattle.dev/play/124) |
 | 14 | [Perspective Split Text](https://codepen.io/delpher/pen/rrLWEq) | [Spiral](https://cssbattle.dev/play/133) |
+| 15 | [Ghost Loading Animation](https://codepen.io/scoooooooby/pen/DLqWYP) | [Pawn](https://cssbattle.dev/play/151) |

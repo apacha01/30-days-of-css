@@ -1,0 +1,68 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: var(--blue-950);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.ghost {
+	aspect-ratio: 1;
+	width: 120px;
+	background: white;
+	border-radius: 50% 50% 0px 0px;
+	clip-path: polygon(0 0, 100% 0, 100% 96%, 83% 79%, 68% 96%, 50% 79%, 33% 96%, 17% 79%, 0px 96%);
+	animation: float 3s ease-in-out infinite;
+}
+
+.ghost::after {
+	position: absolute;
+	content: "";
+	aspect-ratio: 1;
+	width: 15px;
+	border-radius: 100%;
+	background-color: #013E51;
+	transform: translate(30px, 40px);
+	box-shadow: 50px 0 #013e51;
+}
+
+.ghost::before {
+	position: absolute;
+	content: "";
+	aspect-ratio: 2 / 1;
+	width: 15px;
+	border-radius: 0 0 50px 50px;
+	border-left: 5px solid #013E51;
+	border-right: 5px solid #013E51;
+	border-bottom: 5px solid #013E51;
+	transform: translate(50px, 55px);
+}
+
+.shadow {
+	width: 50px;
+	height: 10px;
+	border-radius: 100%;
+	background-color: black;
+	opacity: 0.8;
+	animation: grow 3s ease-in-out infinite;
+}
+
+@keyframes float {
+	50% {
+		transform: translateY(-20px);
+	}
+}
+
+@keyframes grow {
+	50% {
+		transform: scaleX(1.8);
+	}
+}

@@ -1,0 +1,50 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: #F5D6B4;
+}
+
+.top {
+	position: absolute;
+	aspect-ratio: 1;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #D86F45;
+	transform: translate(175px, 55px);
+}
+
+.top:after {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 20px;
+	background-color: #D86F45;
+	transform: translate(-15px, 55px);
+	border-radius: 10px 10px 20px 20px;
+}
+
+.base {
+	position: absolute;
+	transform: translate(130px, 205px);
+	width: 140px;
+	height: 40px;
+	border-radius: 20px 20px 10px 10px;
+	background: #D86F45;
+	box-shadow: 0 -45px #D86F45, 0 -70px #D86F45;
+}
+
+.base:after,
+.base:before {
+	position: absolute;
+	content: "";
+	width: 70px;
+	height: 65px;
+	background-color: #F5D6B4;
+	clip-path: ellipse(52px 75px at 0% 0%);
+	transform: translate(0px, -70px);
+}
+
+.base:before {
+	transform: translate(70px, -70px) scaleX(-1);
+}
