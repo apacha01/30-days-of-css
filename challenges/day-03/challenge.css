@@ -23,7 +23,7 @@
 .text {
 	margin: 0;
 	position: absolute;
-	text-wrap: nowrap;
+	white-space: nowrap;
 	top: 50%;
 	left: 0;
 	transform: translate(100%, -50%);
