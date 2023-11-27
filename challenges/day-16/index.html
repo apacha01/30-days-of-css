@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./art.css">
+	<link rel="stylesheet" href="./challenge.css">
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="shortcut icon" href="../../assets/favicon.svg" type="image/svg+xml">
+	<title>Day 16 | 30 Days of CSS</title>
+</head>
+
+<body>
+	<h1 class="title">Day 16</h1>
+	<a class="go-back-link" href="../../index.html">Go Back</a>
+	<main class="day-challenges-galery">
+		<section class="challenge">
+			<h2 class="subtitle">Challenge: Radar Animation</h2>
+			<h6 style="position: absolute; top: 64px;">
+				From
+				<a href="https://css-challenges.com/area-cleared/" target="_blank" rel="noreferrer noopener">
+					this challenge
+				</a>
+			</h6>
+			<div class="challenge-container">
+				<div id="radar" class="radar radar-animation"></div>
+			</div>
+			<button style="position: absolute; top: 500px;" class="toggle-btn" onclick="toggle(); return false;">
+				Toggle Animation
+			</button>
+		</section>
+
+		<section class="art">
+			<h2 class="subtitle">Art: Rook</h2>
+			<div class="art-container">
+				<div class="top"></div>
+				<div class="middle">
+					<div class="body"></div>
+				</div>
+				<div class="bottom"></div>
+			</div>
+		</section>
+	</main>
+	<script>
+		const toggle = () => {
+			document.getElementById('radar').classList.toggle('radar-animation')
+		}
+	</script>
+</body>
+
+</html>

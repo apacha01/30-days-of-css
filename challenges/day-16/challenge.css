@@ -1,0 +1,50 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: var(--blue-50);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.radar {
+	position: relative;
+	aspect-ratio: 1 / 1;
+	height: 90%;
+	border-radius: 100%;
+	background: repeating-radial-gradient(#83d383 26px, #000 27px 40px, #83d383 42px);
+	border: 10px solid gray;
+	overflow: clip
+}
+
+.radar::after {
+	content: '';
+	position: absolute;
+	width: 200px;
+	height: 50%;
+	border-radius: 5px;
+	background-color: #83d383;
+
+	/* https://stackoverflow.com/questions/67355529/css-how-to-make-a-cone-shape-with-gradient-color */
+	background: linear-gradient(to right, transparent, #008000 50%, lightgray 51%);
+	-webkit-mask: conic-gradient(from -90deg at bottom, #0000 60deg, #000 1deg 92deg, #0000 93deg);
+
+	left: 50%;
+	transform: translateX(-50%);
+	transform-origin: bottom center;
+}
+
+.radar-animation::after {
+	animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: translateX(-50%) rotate(360deg);
+	}
+}

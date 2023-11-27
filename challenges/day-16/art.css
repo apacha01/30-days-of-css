@@ -1,0 +1,88 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: #62306D;
+}
+
+.top,
+.middle,
+.bottom,
+.body,
+.bottom {
+	position: absolute;
+	background: #F7EC7D;
+}
+
+.top::before,
+.top::after,
+.middle::after,
+.body::after,
+.body::before {
+	content: "";
+	position: absolute;
+}
+
+.top {
+	width: 90px;
+	height: 55px;
+	transform: translate(155px, 60px);
+	border-radius: 0 0 10px 10px;
+}
+
+.top:before {
+	background-color: #62306D;
+	width: 30px;
+	height: 40px;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 40px 0 #62306D;
+	transform: translateX(10px);
+}
+
+.top:after {
+	background: #F7EC7D;
+	width: 10px;
+	height: 5px;
+	border-radius: 5px 5px 0 0;
+	transform: translate(0px, -5px);
+	box-shadow: 40px 0 #F7EC7D, 80px 0 #F7EC7D;
+}
+
+.middle,
+.middle:after {
+	background-color: #F7EC7D;
+	width: 110px;
+	height: 10px;
+	border-radius: 5px;
+	transform: translate(145px, 205px);
+}
+
+.middle:after {
+	width: 60px;
+	transform: translate(25px, -85px);
+}
+
+.body {
+	width: 110px;
+	height: 65px;
+	transform: translate(0px, -70px);
+}
+
+.body:after,
+.body:before {
+	width: 70px;
+	height: 66px;
+	background-color: #62306D;
+	clip-path: ellipse(36px 68px at 0% 0%);
+}
+
+.body:before {
+	transform: translate(40px, 0px) scaleX(-1);
+}
+
+.bottom {
+	width: 140px;
+	height: 25px;
+	transform: translate(130px, 220px);
+	border-radius: 20px 20px 10px 10px;
+}

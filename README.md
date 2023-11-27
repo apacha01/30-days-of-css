@@ -27,3 +27,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 13 | [Skew Text on Hover](https://codepen.io/delpher/pen/rrLWEq) | [Space Invaders](https://cssbattle.dev/play/124) |
 | 14 | [Perspective Split Text](https://codepen.io/delpher/pen/rrLWEq) | [Spiral](https://cssbattle.dev/play/133) |
 | 15 | [Ghost Loading Animation](https://codepen.io/scoooooooby/pen/DLqWYP) | [Pawn](https://cssbattle.dev/play/151) |
+| 16 | [Radar Animation](https://css-challenges.com/area-cleared/) | [Rook](https://cssbattle.dev/play/152) |
