@@ -105,7 +105,7 @@ section {
 	justify-content: space-evenly;
 	align-items: center;
 	flex-wrap: wrap;
-	margin: auto;
+	margin: 100px auto;
 }
 
 .toggle-btn {
