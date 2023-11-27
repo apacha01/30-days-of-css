@@ -23,7 +23,7 @@
 					<p class="loader-txt">Loading</p>
 				</div>
 			</div>
-			<button class="spinner-btn" onclick="toggleSpinner(); return false;"> Toggle Animation </button>
+			<button class="toggle-btn" onclick="toggle(); return false;"> Toggle Animation </button>
 		</section>
 
 		<section class="art">
@@ -43,7 +43,7 @@
 		</section>
 	</main>
 	<script>
-		const toggleSpinner = () => {
+		const toggle = () => {
 			document.getElementById('spinner').classList.toggle('no-animation')
 		}
 	</script>
