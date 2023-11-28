@@ -1,0 +1,38 @@
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: #998235;
+}
+
+.chip {
+	position: absolute;
+	transform: translate(140px, 90px);
+	aspect-ratio: 1 / 1;
+	width: 120px;
+	border-radius: 100%;
+	background-color: #0B2429;
+	box-shadow: 0 0 0 10px #FCBE5C, 0 0 0 20px #0B2429, 0 0 0 35px #FCBE5C, 0 0 0 45px #0B2429;
+}
+
+.details,
+.details:before,
+.details:after {
+	position: absolute;
+	content: "";
+	aspect-ratio: 1;
+	width: 30px;
+	background-color: #0B2429;
+	transform: translate(185px, 50px);
+	-webkit-box-reflect: below 140px;
+}
+
+.details:before {
+	transform: translate(60px, -25px);
+	rotate: 45deg;
+}
+
+.details:after {
+	transform: translate(85px, -85px);
+	rotate: 90deg;
+}

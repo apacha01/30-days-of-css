@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./art.css">
+	<link rel="stylesheet" href="./challenge.css">
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="shortcut icon" href="../../assets/favicon.svg" type="image/svg+xml">
+	<title>Day 17 | 30 Days of CSS</title>
+</head>
+
+<body>
+	<h1 class="title">Day 17</h1>
+	<a class="go-back-link" href="../../index.html">Go Back</a>
+	<main class="day-challenges-galery">
+		<section class="challenge">
+			<h2 class="subtitle">Challenge: Rolling World</h2>
+			<h6 style="position: absolute; top: 64px;">
+				From
+				<a href="https://css-challenges.com/rolling-world/" target="_blank" rel="noreferrer noopener">
+					this challenge
+				</a>
+			</h6>
+			<div class="challenge-container">
+				<div id="ps" class="perspective-screen perspective-animated"></div>
+			</div>
+			<button style="position: absolute; top: 500px;" class="toggle-btn" onclick="toggle(); return false;">
+				Toggle Animation
+			</button>
+		</section>
+
+		<section class="art">
+			<h2 class="subtitle">Art: Poker Chip</h2>
+			<div class="art-container">
+				<div class="chip"></div>
+				<div class="details"></div>
+			</div>
+		</section>
+	</main>
+	<script>
+		const toggle = () => {
+			document.getElementById('ps').classList.toggle('perspective-animated')
+		}
+	</script>
+</body>
+
+</html>
