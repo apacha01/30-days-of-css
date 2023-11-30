@@ -29,3 +29,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 15 | [Ghost Loading Animation](https://codepen.io/scoooooooby/pen/DLqWYP) | [Pawn](https://cssbattle.dev/play/151) |
 | 16 | [Radar Animation](https://css-challenges.com/area-cleared/) | [Rook](https://cssbattle.dev/play/152) |
 | 17 | [Rolling World](https://css-challenges.com/rolling-world/) | [Poker Chip](https://cssbattle.dev/play/154) |
+| 18 | [007 Effect](https://css-challenges.com/007-world/) | [Monopoly](https://cssbattle.dev/play/157) |
