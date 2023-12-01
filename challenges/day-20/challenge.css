@@ -1,0 +1,76 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: var(--blue-950);
+	display: flex;
+	align-items: center;
+	perspective: 1000px;
+}
+
+.big-ring {
+	position: relative;
+	margin: 0 auto;
+	height: 200px;
+	width: 200px;
+	transform-style: preserve-3d;
+}
+
+.side {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	aspect-ratio: 1;
+	height: 100px;
+	line-height: 100px;
+	font-size: 96px;
+	border: 2px solid var(--blue-50);
+	border-radius: 12px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff8;
+	transition: transform 2s;
+	backface-visibility: hidden;
+}
+
+.backfaces>.side {
+	backface-visibility: visible;
+}
+
+.animate {
+	animation: spin 8s linear infinite;
+}
+
+.one {
+	transform: translateZ(100px);
+}
+
+.two {
+	transform: rotateY(60deg) translateZ(100px);
+}
+
+.three {
+	transform: rotateY(120deg) translateZ(100px);
+}
+
+.four {
+	transform: rotateY(180deg) translateZ(100px);
+}
+
+.five {
+	transform: rotateY(240deg) translateZ(100px);
+}
+
+.six {
+	transform: rotateY(300deg) translateZ(100px);
+}
+
+@keyframes spin {
+	to {
+		transform: rotateY(-360deg);
+	}
+}

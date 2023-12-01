@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./art.css">
+	<link rel="stylesheet" href="./challenge.css">
+	<link rel="stylesheet" href="../../style.css">
+	<link rel="shortcut icon" href="../../assets/favicon.svg" type="image/svg+xml">
+	<title>Day 20 | 30 Days of CSS</title>
+</head>
+
+<body>
+	<h1 class="title">Day 20</h1>
+	<a class="go-back-link" href="../../index.html">Go Back</a>
+	<main class="day-challenges-galery">
+		<section class="challenge">
+			<h2 class="subtitle">Challenge: </h2>
+			<h6 style="position: absolute; top: 64px;">
+				From
+				<a href="https://webkit.org/blog-files/3d-transforms/morphing-cubes.html" target="_blank"
+					rel="noreferrer noopener">
+					this example
+				</a>
+				in
+				<a href="https://webkit.org/blog/386/3d-transforms/" target="_blank" rel="noreferrer noopener">
+					webkit blog on 3D transforms
+				</a>
+			</h6>
+			<div class="challenge-container">
+				<div id="ring" class="big-ring animate backfaces">
+					<div class="side one">1</div>
+					<div class="side two">2</div>
+					<div class="side three">3</div>
+					<div class="side four">4</div>
+					<div class="side five">5</div>
+					<div class="side six">6</div>
+				</div>
+			</div>
+			<button style="position: absolute; top: 500px;" class="toggle-btn" onclick="toggle(); return false;">
+				Toggle Animation
+			</button>
+			<label for="opacity" style="position: absolute; top: 555px; display: flex; gap: 12px; width: max-content;">
+				Background Opacity
+				<input id="opacity" type="range" class="opacity-range" value="8" min="0" max="15"
+					onchange="adjustOpacity(this.value); return false;" />
+				<div id="output">8</div>
+			</label>
+			<label for="backface" style="position: absolute; top: 600px; display: flex; gap: 8px; width: max-content;">
+				Backface Visibility
+				<input type="checkbox" name="backface" id="backface" checked
+					onchange="toggleBackface(); return false;" />
+			</label>
+		</section>
+
+		<section class="art">
+			<h2 class="subtitle">Art: One Div Flow</h2>
+			<div class="art-container">
+				<div class="center"></div>
+			</div>
+		</section>
+	</main>
+	<script>
+		const toggle = () => {
+			document.getElementById('ring').classList.toggle('animate')
+		}
+
+		const adjustOpacity = (value) => {
+			const a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F']
+			const sides = document.getElementsByClassName('side');
+			for (let i = 0; i < sides.length; i++) {
+				sides[i].style.backgroundColor = `#fff${a[value]}`;
+			}
+			document.getElementById('output').innerHTML = a[value]
+		}
+
+		const toggleBackface = () => {
+			document.getElementById('ring').classList.toggle('backfaces');
+		}
+
+	</script>
+</body>
+
+</html>
