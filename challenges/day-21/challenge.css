@@ -1,0 +1,119 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: var(--blue-950);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	perspective: 1000px;
+}
+
+.envelope::after,
+.envelope::before,
+.top-fold,
+.letter,
+.letter::before,
+.letter::after,
+.top-border,
+.shadow {
+	content: "";
+	position: absolute;
+}
+
+.envelope {
+	position: relative;
+	height: 100px;
+	width: 200px;
+	background-color: var(--blue-800);
+	transition: transform 0.5s;
+}
+
+.envelope:hover {
+	transform: translateY(35px);
+}
+
+.envelope::before {
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+	border-left: 110px solid var(--blue-700);
+	z-index: 10;
+}
+
+.envelope::after {
+	border-bottom: 100px solid var(--blue-600);
+	border-left: 200px solid transparent;
+	z-index: 10;
+}
+
+.top-fold {
+	top: 0;
+	border-top: 50px solid var(--blue-800);
+	border-right: 100px solid transparent;
+	border-left: 100px solid transparent;
+	transform-origin: 50% top;
+	transition: transform 1.5s;
+}
+
+.envelope:hover .top-fold {
+	transform: rotateX(180deg);
+	transition: transform 0.3s;
+}
+
+.letter {
+	bottom: 0;
+	left: 50%;
+	width: 150px;
+	height: 175px;
+	background-color: var(--blue-50);
+	transform: translateX(-50%) scaleY(0);
+	transform-origin: 50% bottom;
+	transition: transform 0.5s ease-out;
+	z-index: 5;
+}
+
+.letter::before {
+	width: 75px;
+	height: 12px;
+	background-color: var(--blue-700);
+	top: 20px;
+	left: 10px;
+	box-shadow: -3px 20px 0 -3px var(--blue-700);
+}
+
+.letter::after {
+	aspect-ratio: 1;
+	width: 60px;
+	border-radius: 50%;
+	background-color: var(--blue-200);
+	right: 15px;
+	bottom: 40px;
+}
+
+.envelope:hover .letter {
+	transform: translateX(-50%) scaleY(1);
+}
+
+.top-border {
+	height: 10px;
+	width: 100%;
+	top: 0;
+	background: repeating-linear-gradient(-45deg, var(--blue-800) 0px, var(--blue-800) 10px, var(--blue-50) 11px, var(--blue-50) 21px);
+}
+
+.shadow {
+	width: 400px;
+	height: 30px;
+	border-radius: 100%;
+	background: radial-gradient(#0008, #0000, #0000);
+	transform: translateY(115px);
+	transition: width 0.5s;
+}
+
+.envelope:hover~.shadow {
+	width: 250px;
+}

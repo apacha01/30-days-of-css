@@ -32,3 +32,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 18 | [007 Effect](https://css-challenges.com/007-world/) | [Monopoly](https://cssbattle.dev/play/157) |
 | 19 | [3D Loader](https://www.youtube.com/watch?v=4NGxSz_mi3A&list=PLNCevxogE3fi-EhdiCAfw7MtKI4vKU_vD) | [Clubs](https://cssbattle.dev/play/158) |
 | 20 | [3D Ring Animation](https://webkit.org/blog-files/3d-transforms/morphing-cubes.html) | [Flow](https://cssbattle.dev/play/166) |
+| 21 | [Envelope Animation](https://blog.hubspot.com/website/css-animation-examples) | [Frankestein](https://cssbattle.dev/play/177) |
