@@ -35,3 +35,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 21 | [Envelope Animation](https://blog.hubspot.com/website/css-animation-examples) | [Frankestein](https://cssbattle.dev/play/177) |
 | 22 | [Submarine Animation](https://blog.hubspot.com/website/css-animation-examples) | [Cowboy](https://www.youtube.com/watch?v=sw1AYxG-YZs&list=PLNCevxogE3fjFTYBst-r1gvlCMsUSzjEU&index=62) |
 | 23 | [Text Infinite Loop Effect](https://codepen.io/ainalem/pen/oNxXRgW) | [Magikarp](https://www.youtube.com/watch?v=2Cq0bSIJraI) |
+| 24 | [Cat Animation](https://codepen.io/ainalem/pen/oNxXRgW) | [Cat](https://www.youtube.com/watch?v=2Cq0bSIJraI) |
