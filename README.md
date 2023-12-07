@@ -37,3 +37,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 23 | [Text Infinite Loop Effect](https://codepen.io/ainalem/pen/oNxXRgW) | [Magikarp](https://www.youtube.com/watch?v=2Cq0bSIJraI) |
 | 24 | [Cat Animation](https://codepen.io/ainalem/pen/oNxXRgW) | [Cat](https://www.youtube.com/watch?v=2Cq0bSIJraI) |
 | 24 | [Frog Animation](https://www.youtube.com/watch?v=ZvpenfFldvA&list=PLNCevxogE3fjFTYBst-r1gvlCMsUSzjEU&index=31) | [Chameleon](https://www.youtube.com/watch?v=DYi4-pA8Zos&list=PLNCevxogE3fjFTYBst-r1gvlCMsUSzjEU&index=52) |
+| 24 | [Snow Globe Animation](https://codepen.io/Coding-Artist/pen/xmdOxB) | [Reindeer](https://codepen.io/ivanodintsov/pen/BjVMRL) |

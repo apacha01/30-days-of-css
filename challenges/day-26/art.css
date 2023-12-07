@@ -1,0 +1,281 @@
+.art {
+	position: relative;
+}
+
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: var(--blue-50);
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: center;
+	--brown: #91655D;
+	--brown-dark: #835F5B;
+	--brown-light: #E7BEB2;
+	--brown-shadow: #9C7169;
+	--brown-shadow-2: #AA8275;
+}
+
+.reindeer-body {
+	position: relative;
+	height: 140px;
+	width: 50px;
+	border-radius: 50px 50px 0;
+	background-color: var(--brown);
+	box-shadow: inset 7px 0 0 0 var(--brown-shadow);
+}
+
+.reindeer-body::before {
+	content: '';
+	position: absolute;
+	height: 65px;
+	width: 20px;
+	background-color: var(--brown-light);
+	border-radius: 20px 0 0 20px;
+	right: 0;
+	transform: translateY(60px);
+}
+
+.reindeer-body::after {
+	content: '';
+	position: absolute;
+	aspect-ratio: 2 / 1;
+	width: 20px;
+	background-color: var(--brown-shadow);
+	border-radius: 10px 10px 10px 10px;
+	left: 0;
+	bottom: 0;
+	transform: translate(-8px, -2px) rotate(-10deg);
+}
+
+.reindeer-horn {
+	position: absolute;
+	width: 7px;
+	height: 55px;
+	background-color: var(--brown);
+	border-radius: 7px 7px 0 0;
+	transform: translate(-5px, -45px) rotate(-30deg);
+}
+
+.h-right {
+	transform: translate(40px, -48px) rotate(25deg);
+}
+
+.h-details {
+	background-color: var(--brown);
+	border-radius: 7px 0 0 7px;
+	height: 7px;
+	width: 20px;
+	transform: translate(-17px, 30px) rotate(30deg);
+}
+
+.h-details::before {
+	content: "";
+	position: absolute;
+	background-color: var(--brown);
+	border-radius: 7px 0 0 7px;
+	height: 7px;
+	width: 15px;
+	transform: translate(-5px, -20px);
+}
+
+.h-details::after {
+	content: "";
+	position: absolute;
+	background-color: var(--brown);
+	border-radius: 7px 0 0 7px;
+	height: 7px;
+	width: 17px;
+	transform: translate(11px, -18px) rotate(100deg);
+}
+
+.reindeer-ear {
+	position: absolute;
+	background-color: var(--brown);
+	border-radius: 100% 50% 50% 50%;
+	width: 30px;
+	height: 18px;
+	transform: translate(-22px, 13px) rotate(30deg);
+	transform-origin: 100%;
+}
+
+.reindeer-ear::before {
+	content: '';
+	position: absolute;
+	background-color: var(--brown-light);
+	border-radius: 100% 50% 50% 50%;
+	width: 15px;
+	height: 9px;
+	transform: translate(5px, 5px);
+}
+
+.e-right {
+	transform: translate(12px, 12px) rotate(150deg);
+}
+
+.reindeer-eye {
+	position: absolute;
+	aspect-ratio: 1;
+	width: 15px;
+	border-radius: 50%;
+	background: linear-gradient(0deg, white 50%, var(--brown-shadow-2) 50%);
+	transform: translateY(25px);
+}
+
+.reindeer-eye::before {
+	content: "";
+	position: absolute;
+	aspect-ratio: 1;
+	width: 5px;
+	border-radius: 50%;
+	background: linear-gradient(0deg, var(--blue-950) 70%, transparent 70%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+}
+
+.ey-left {
+	right: 13px;
+}
+
+.ey-right {
+	right: -5px;
+}
+
+.reindeer-nose {
+	position: absolute;
+	background-color: var(--brown);
+	border-radius: 0 7px 15px;
+	width: 20px;
+	height: 18px;
+	right: -10px;
+	transform: translateY(41px);
+}
+
+.reindeer-nose::before {
+	position: absolute;
+	content: '';
+	background-color: #FB5D5D;
+	width: 16px;
+	height: 14px;
+	border-radius: 15px;
+	right: -1px;
+	top: -1px;
+}
+
+.reindeer-nose::after {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 2px;
+	border-radius: 50%;
+	background-color: white;
+	top: 2px;
+	right: 4px;
+}
+
+.reindeer-hand {
+	position: absolute;
+	background-color: transparent;
+	border-top: 20px solid var(--brown);
+	border-right: 20px solid var(--brown);
+	border-radius: 0 45px 0 0;
+	aspect-ratio: 1;
+	width: 25px;
+	transform: translate(28px, -70px) rotate(120deg);
+}
+
+.reindeer-hand::before {
+	content: "";
+	position: absolute;
+	background-color: #674a4a;
+	width: 15px;
+	height: 20px;
+	top: -20px;
+	left: -14px;
+	z-index: 3;
+}
+
+.ha-right::after {
+	content: "";
+	position: absolute;
+	background-color: #FFB63C;
+	width: 10px;
+	height: 40px;
+	border-radius: 10px;
+	top: -30px;
+	left: -20px;
+	z-index: 1;
+}
+
+.ha-left {
+	width: 18px;
+	height: 10px;
+	transform: translate(45px, -63px) rotate(90deg);
+}
+
+.reindeer-leg {
+	position: absolute;
+	background-color: transparent;
+	border-top: 20px solid var(--brown);
+	border-right: 20px solid var(--brown);
+	border-radius: 0 45px 0 0;
+	width: 35px;
+	height: 40px;
+	transform: translate(40px, -30px) rotate(-20deg);
+	z-index: 2;
+}
+
+.reindeer-leg::before {
+	content: "";
+	position: absolute;
+	background-color: #674a4a;
+	width: 21px;
+	height: 15px;
+	right: -20px;
+	bottom: 0;
+}
+
+.l-back {
+	border-top: 20px solid var(--brown-dark);
+	border-right: 20px solid var(--brown-dark);
+	transform: translate(30px, -15px) rotate(20deg);
+	z-index: 1;
+}
+
+.l-back::before {
+	transform: translate(0px, 5px) rotate(-20deg) skew(-20deg);
+}
+
+.gift {
+	position: relative;
+	width: 50px;
+	height: 55px;
+	border-radius: 3px;
+	background-color: #FB5D5D;
+}
+
+.gift::before {
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 15px;
+	border-radius: 10px;
+	background-color: #ff8282;
+	top: -2px;
+	left: -10%;
+	z-index: 10;
+}
+
+.gift::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: calc(100% + 2px);
+	background-color: #ff1e1e;
+	top: -2px;
+	left: 15px;
+	z-index: 11;
+}
