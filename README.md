@@ -39,3 +39,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 25 | [Frog Animation](https://www.youtube.com/watch?v=ZvpenfFldvA&list=PLNCevxogE3fjFTYBst-r1gvlCMsUSzjEU&index=31) | [Chameleon](https://www.youtube.com/watch?v=DYi4-pA8Zos&list=PLNCevxogE3fjFTYBst-r1gvlCMsUSzjEU&index=52) |
 | 26 | [Snow Globe Animation](https://codepen.io/Coding-Artist/pen/xmdOxB) | [Reindeer](https://codepen.io/ivanodintsov/pen/BjVMRL) |
 | 27 | [Animated Typography](https://codepen.io/roydigerhund/pen/wGvEVY) | [Ruby](https://codepen.io/roydigerhund/pen/grQKdM) |
+| 28 | [Growing Tree Animation](https://codepen.io/roydigerhund/pen/wGNxzg) | [Flower](https://codepen.io/roydigerhund/pen/xVXXMx) |

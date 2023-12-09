@@ -1,0 +1,136 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: #ee8e49;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tree {
+	z-index: 2;
+	background-color: #E8C87E;
+	width: 5px;
+	height: 200px;
+	border-radius: 5px;
+	transform: scaleY(0);
+	transform-origin: center bottom;
+	animation: grow-trunk 0.7s ease-in-out 1 forwards;
+	margin-top: 10px;
+}
+
+.tree::before,
+.tree::after {
+	content: "";
+	position: absolute;
+	background-color: #E8C87E;
+	width: 5px;
+	height: 20px;
+	border-radius: 5px;
+	transform-origin: center bottom;
+	transform: rotate(-30deg);
+}
+
+.tree::after {
+	height: 30px;
+	transform: translateY(20px) rotate(-45deg);
+}
+
+.branch {
+	position: absolute;
+	width: 5px;
+	height: 60px;
+	background: #E8C87E;
+	border-radius: 3px;
+	transform-origin: center bottom;
+	transform: translateY(25px) rotate(30deg);
+}
+
+.branch::before,
+.branch::after {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 70px;
+	background: #E8C87E;
+	border-radius: 3px;
+	transform-origin: center bottom;
+	transform: translate(20px, 25px) rotate(-70deg);
+}
+
+.branch::after {
+	transform: translate(30px, 55px) rotate(30deg);
+	height: 60px;
+}
+
+.shadow {
+	position: absolute;
+	width: 80px;
+	height: 4px;
+	left: 50%;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, 0.4);
+	filter: blur(3px);
+	transform: translate(-50%, 198px);
+}
+
+.leafs {
+	position: absolute;
+	border-bottom: 212px solid #de591c;
+	border-left: 96px solid transparent;
+	border-right: 96px solid transparent;
+	transform: scaleX(0);
+	transform-origin: center center;
+	translate: 0 -30px;
+	animation: grow-leafs 1s ease-in-out 0.7s 1 forwards;
+}
+
+.leafs::after {
+	content: "";
+	position: absolute;
+	border-bottom: 212px solid #0003;
+	border-left: 96px solid transparent;
+	border-right: 0px solid transparent;
+	left: -96px;
+}
+
+@keyframes grow-trunk {
+	0% {
+		transform: scaleY(0);
+	}
+
+	60% {
+		transform: scaleY(1.1);
+	}
+
+	80% {
+		transform: scaleY(0.95);
+	}
+
+	100% {
+		transform: scaleY(1);
+	}
+}
+
+@keyframes grow-leafs {
+	0% {
+		transform: scaleX(0);
+	}
+
+	60% {
+		transform: scaleX(1.1);
+	}
+
+	80% {
+		transform: scaleX(0.95);
+	}
+
+	100% {
+		transform: scaleX(1);
+	}
+}
