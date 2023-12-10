@@ -20,11 +20,11 @@
 	height: 90%;
 	transition: transform 1s ease-in-out;
 	transform-style: preserve-3d;
-	transform: rotateX(-25deg);
+	transform: rotateX(-25deg) rotateZ(5deg);
 }
 
 .sphere:hover {
-	transform: rotateX(25deg);
+	transform: rotateX(25deg) rotateZ(5deg);
 }
 
 .slice {
