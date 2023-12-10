@@ -40,3 +40,4 @@ Every art and challenge is linked in the table on the [result section](#result) 
 | 26 | [Snow Globe Animation](https://codepen.io/Coding-Artist/pen/xmdOxB) | [Reindeer](https://codepen.io/ivanodintsov/pen/BjVMRL) |
 | 27 | [Animated Typography](https://codepen.io/roydigerhund/pen/wGvEVY) | [Ruby](https://codepen.io/roydigerhund/pen/grQKdM) |
 | 28 | [Growing Tree Animation](https://codepen.io/roydigerhund/pen/wGNxzg) | [Flower](https://codepen.io/roydigerhund/pen/xVXXMx) |
+| 29 | [3D Sliced Sphere](https://codepen.io/roydigerhund/pen/GZMLbK) | [One Div Book Cover](https://codepen.io/roydigerhund/pen/BKqENE) |

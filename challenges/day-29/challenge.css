@@ -1,0 +1,48 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: #D33526;
+	display: flex;
+	justify-content: center;
+	perspective: 1000px;
+}
+
+.sphere {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	aspect-ratio: 1;
+	height: 90%;
+	transition: transform 1s ease-in-out;
+	transform-style: preserve-3d;
+	transform: rotateX(-25deg);
+}
+
+.sphere:hover {
+	transform: rotateX(25deg);
+}
+
+.slice {
+	box-sizing: border-box;
+	position: absolute;
+	--size: calc(300px - (var(--i) * var(--i) * 3px));
+	--offset: calc(var(--i) * 14px);
+	top: calc((300px - var(--size)) / 2);
+	left: 50%;
+	transform: translateX(-50%) translateY(var(--offset)) rotateX(90deg);
+	aspect-ratio: 1;
+	width: var(--size);
+	border-radius: 50%;
+	background: #FFF;
+	border: 3px solid #D33526;
+	transition: transform 1s ease-in-out;
+}
+
+.slice:nth-child(n+11) {
+	transform: translateX(-50%) translateY(calc(var(--offset) * -1)) rotateX(90deg);
+}

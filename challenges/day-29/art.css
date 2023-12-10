@@ -1,0 +1,55 @@
+.art {
+	position: relative;
+}
+
+.art-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background: #E3E7EA;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.book {
+	box-sizing: border-box;
+	position: relative;
+	width: 200px;
+	height: 280px;
+	border-radius: 1px 5px 5px 1px;
+	background:
+		linear-gradient(to right, #FFF0 0px, #FFF1 5px, #FFF1 9px, #0002 10px, #0002 17px, #0000 20px),
+		linear-gradient(45deg, #1e1e1e 0%, #4f4f4f 100%);
+	font-size: 36px;
+	font-weight: bold;
+	color: #FFF;
+	line-height: 34px;
+	padding: 50px 30px;
+}
+
+.book::before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 282px;
+	top: 0;
+	left: 0;
+	transform: translate(165px, -1px);
+	border-radius: 1px;
+	box-shadow: -1px 0 0 0 #0008;
+	background: repeating-linear-gradient(to right, #a90329 0%, #a90329 11%, #8e0028 12%, #8e0028 24%);
+}
+
+.book::after {
+	content: 'by its cover';
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(30px, 150px);
+	width: fit-content;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: italic;
+	color: #ccc;
+}
