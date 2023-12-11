@@ -1,0 +1,194 @@
+.challenge {
+	position: relative;
+}
+
+.challenge-container {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	background-color: #272C34;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.neon {
+	position: absolute;
+	background-color: #1A1E24;
+	box-shadow: 0px 0px 5px 0px #1A1E24;
+	border-radius: 5px;
+	animation: twitch 5s ease-in-out 0s infinite alternate;
+}
+
+.e,
+.n,
+.d {
+	position: relative;
+	width: 100px;
+	height: 120px;
+}
+
+.e,
+.d {
+	width: 70px;
+}
+
+.el,
+.nl,
+.dl {
+	width: 6px;
+	height: 100%;
+	left: 0;
+}
+
+.et,
+.eb {
+	width: 66px;
+	height: 6px;
+	left: 10px;
+}
+
+.eb {
+	bottom: 0;
+}
+
+.em {
+	width: 46px;
+	height: 6px;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+}
+
+.nm {
+	width: 6px;
+	height: 135px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+.nr {
+	width: 6px;
+	height: 100%;
+	right: 0;
+}
+
+.dr {
+	position: absolute;
+	width: 65px;
+	height: 100%;
+	left: 10px;
+}
+
+.circle-container {
+	position: absolute;
+	top: -10px;
+	right: -10px;
+	height: 200px;
+	width: 70px;
+	overflow: hidden;
+	background-color: transparent;
+	box-shadow: none;
+}
+
+.circle {
+	position: absolute;
+	right: 0;
+
+	aspect-ratio: 1;
+	height: 120px;
+	top: 10px;
+	right: 10px;
+	border-radius: 50%;
+
+	box-sizing: border-box;
+	background-color: transparent;
+	border-style: solid;
+	border-width: 6px;
+	border-color: #1A1E24 #1A1E24 transparent transparent;
+	border-radius: 50%;
+	box-shadow: 0px 0px 10px 0px #1A1E24, inset 0px 0px 10px 0px #1A1E24;
+	transform: rotate(45deg);
+
+	animation: twitch-circle 5s ease-in-out 0s infinite alternate;
+}
+
+.tips {
+	position: absolute;
+	width: 10px;
+	height: 6px;
+	left: 3px;
+	background-color: #1A1E24;
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 0px #1A1E24, 0 114px 0 0 #1A1E24, 0 114px 6px 0 #1A1E24;
+	animation: twitch-circle-tips 5s ease-in-out 0s infinite alternate;
+}
+
+@keyframes twitch {
+
+	35%,
+	37%,
+	39%,
+	41%,
+	100% {
+		background: #F1F4F5;
+		box-shadow: 0px 0px 10px 0px #F1F4F5;
+	}
+
+	0%,
+	34%,
+	36%,
+	36%,
+	38%,
+	40% {
+		background: #1A1E24;
+		box-shadow: 0px 0px 6px 0px #1A1E24;
+	}
+}
+
+@keyframes twitch-circle {
+
+	35%,
+	37%,
+	39%,
+	41%,
+	100% {
+		border-color: #F1F4F5 #F1F4F5 transparent transparent;
+		box-shadow: 0px 0px 5px 0px #F1F4F5, inset 0px 0px 5px 0px #F1F4F5;
+	}
+
+	0%,
+	34%,
+	36%,
+	36%,
+	38%,
+	40% {
+		border-color: #1A1E24 #1A1E24 transparent transparent;
+		box-shadow: 0px 0px 6px 0px #1A1E24, inset 0px 0px 6px 0px #1A1E24;
+	}
+}
+
+@keyframes twitch-circle-tips {
+
+	35%,
+	37%,
+	39%,
+	41%,
+	100% {
+		background: #F1F4F5;
+		box-shadow: 0px 0px 10px 1px #F1F4F5, 0 114px 0 0 #F1F4F5, 0px 114px 10px 1px #F1F4F5;
+
+	}
+
+	0%,
+	34%,
+	36%,
+	36%,
+	38%,
+	40% {
+		background: #1A1E24;
+		box-shadow: 0px 0px 6px 0px #1A1E24, 0 114px 0 0 #1A1E24;
+	}
+}
